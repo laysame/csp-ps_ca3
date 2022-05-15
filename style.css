@@ -19,6 +19,8 @@ div {
 
 .title {
   font-weight: 600;
+  background: #ec7263;
+  color: #ffff;
 }
 
 .editable {
@@ -42,7 +44,7 @@ div {
 }
 
 .card {
-  background: white;
+  background: #ffff;
   border-bottom: 1px solid #aaa;
 }
 
@@ -51,7 +53,7 @@ div {
   min-width: 280px;
   margin: 10px 5px;
   position: relative;
-  background: #dfe1e6;
+  background: #fdfdcb;
 }
 
 
