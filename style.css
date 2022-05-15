@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
 body {
   font-family: sans-serif;
   color: #172b4d;
-  background-color: #0279bf;
   display: flex;
   align-items: start;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 div {
