@@ -2,10 +2,12 @@
 
 body {
   font-family: sans-serif;
-  color: #172b4d;
+  color: #b64926;
   display: flex;
   align-items: start;
   font-family: 'PT Sans Narrow', sans-serif;
+  background: #fde994;
+  font-size: 1.05rem;
 }
 
 div {
@@ -19,7 +21,7 @@ div {
 
 .title {
   font-weight: 600;
-  background: #ec7263;
+  background: #83580b;
   color: #ffff;
 }
 
@@ -31,12 +33,12 @@ div {
   cursor: pointer !important;
   display: flex;
   justify-content: space-between;
+  text-transform: capitalize;
 }
 
 .editing {
   background: white;
-  color: #172b4d !important;
-  box-shadow:inset 0px 0px 0px 2px #0279bf;
+  color: #b64926 !important;
 }
 
 .editing:hover {
@@ -53,7 +55,7 @@ div {
   min-width: 280px;
   margin: 10px 5px;
   position: relative;
-  background: #fdfdcb;
+  background: #ffff;
 }
 
 
@@ -82,10 +84,30 @@ div {
 }
 
 .add-card:hover {
-  background-color: rgba(9,30,66,.13);
+  background-color: #faf8d7;
 }
 
 .del {
   font-weight: 600;
   color: gray;
+}
+
+.red {
+  color: #e80c0c;
+}
+
+.yellow {
+  color: #e1e10c;
+}
+
+.green {
+  color: #979717;
+}
+
+.black {
+  color: black;
+}
+
+.purple {
+  color: purple;
 }
